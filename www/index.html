@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="icon" type="image/png" href="images/splash/android-chrome-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" sizes="196x196" href="images/splash/apple-touch-icon-196x196.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/splash/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/splash/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/splash/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/splash/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/splash/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/splash/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/splash/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/splash/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/splash/apple-touch-icon-57x57.png">
+<link rel="icon" type="image/png" href="images/splash/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="images/splash/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/splash/favicon-16x16.png" sizes="16x16">
+<link rel="shortcut icon" href="images/splash/favicon.ico" type="image/x-icon" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:900,800,700' rel='stylesheet' type='text/css'>
+    
+<title>My Call Card | Emmanuel Olayiwola</title>
+
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<link href="styles/menu.css" rel="stylesheet" type="text/css">
+<link href="styles/framework.css" rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</head>
+
+<body class="landing-homepage"> 
+    <!--Modal Menu -->
+<div class="modal-menu modal-menu-light">
+     <div class="container heading-style">
+                    <h4 class="heading-title">Get in touch!</h4>
+                    <i class="fa fa-envelope-o heading-icon"></i>
+                    <div class="line bg-black"></div>
+                    
+                </div>
+    <div class="container no-bottom">
+                    <div class="contact-form no-bottom"> 
+                        <div class="formSuccessMessageWrap" id="formSuccessMessageWrap">
+                            <div class="container">
+                                <div class="decoration"></div>
+                                <h4 class="center-text">Message Sent </h4>
+                                <p class="center-text">Your message has been successfuly sent. Please allow up to 48 hours for a reply! Thanks!</p>
+                            </div>
+                        </div>
+
+                        <form action="php/contact.php" method="post" class="contactForm" id="contactForm">
+                            <fieldset>
+                                <div class="formValidationError bg-red-dark color-white" id="contactNameFieldError">
+                                    <p class="center-text uppercase small-text">Name is required!</p>
+                                </div>             
+                                <div class="formValidationError bg-red-dark color-white" id="contactEmailFieldError">
+                                    <p class="center-text uppercase small-text">Mail address required!</p>
+                                </div> 
+                                <div class="formValidationError bg-red-dark color-white" id="contactEmailFieldError2">
+                                    <p class="center-text uppercase small-text">Mail address must be valid!</p>
+                                </div> 
+                                <div class="formValidationError bg-red-dark color-white" id="contactMessageTextareaError">
+                                    <p class="center-text uppercase small-text">Message field is empty!</p>
+                                </div>   
+                                <div class="formFieldWrap">
+                                    <label class="field-title contactNameField" for="contactNameField">Name:<span>(required)</span></label>
+                                    <input type="text" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"/>
+                                </div>
+                                <div class="formFieldWrap">
+                                    <label class="field-title contactEmailField" for="contactEmailField">Email: <span>(required)</span></label>
+                                    <input type="text" name="contactEmailField" value="" class="contactField requiredField requiredEmailField" id="contactEmailField"/>
+                                </div>
+                                <div class="formTextareaWrap">
+                                    <label class="field-title contactMessageTextarea" for="contactMessageTextarea">Message: <span>(required)</span></label>
+                                    <textarea name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"></textarea>
+                                </div>
+                                <div class="formSubmitButtonErrorsWrap contactFormButton">
+                                    <input type="submit" class="buttonWrap button button-green contactSubmitButton" id="contactSubmitButton" value="Send Message" data-formId="contactForm"/>
+                                </div>
+                            </fieldset>
+                        </form>       
+                    </div>
+                </div>
+                <a href="#" class="close-modal-menu"><i class="fa fa-times"></i><em>Close</em><i class="fa fa-circle"></i></a>
+</div>
+<!--Modal Menu Background. Must be under modal menu items-->
+<div class="modal-menu-background modal-menu-light-background"></div>
+<div class="landing-light">
+    <div class="landing-wrapper">
+        
+        
+        <!-- Left Top Menu -->
+         <div class="circle-slider no-bottom">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide" style="margin:auto !important;">
+                    <img class="responsive-image scale-hover" src="images/pictures/2t.jpg" alt="img">
+                    <div class="slider-caption">
+                        <h3 class="center-text">Emmanuel Olayiwola</h3>
+                        <p class="center-text">Student and Technology Entrepreneur. Founded <a target="blank_" href="https://homespike.com">www.homespike.com</a>!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="call-to-action full-bottom">
+            <a target="_blank" href="https://hnginterns.slack.com/messages/@emma"><i class="fa fa-slack color-green-dark"></i>@emma</a>
+            <a target="_blank" href="https://github.com/olaasz"><i class="fa fa-github color-red-dark"></i> @olaasz</a>
+            <a target="_blank" href="https://linkedin.com/in/emmanuelolayiwola"><i class="fa fa-linkedin color-blue-dark"></i> Linkedin</a>
+            <div class="clear"></div>
+        </div>
+        <ul>
+
+            <li>
+                <a class="change-landing-color" href="tel:08031538811">
+                    <i class="fa fa-phone bg-red-light "></i>
+                    <em>Call Me</em>
+                </a>
+            </li> 
+            <li>
+                <a href="sms:08031538811?body=Hi Emmanuel">
+                    <i class="fa fa-comment-o sms-color"></i>
+                    <em>Text Me</em>
+                </a>
+            </li>
+            <li>
+                <a class="open-modal-menu" href="#!">
+                    <i class="fa fa-envelope-o bg-blue-dark"></i>
+                    <em>Email Now</em>
+                </a>
+            </li>
+            <li>
+                <a href="http://twitter.com/olaasemmanuel">
+                    <i class="fa fa-twitter twitter-color"></i>
+                    <em>My twitter</em>
+                </a>
+            </li>          
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=2348031538811">
+                    <i class="fa fa-whatsapp whatsapp-color"></i>
+                    <em>Lets Chat</em>
+                </a>
+            </li>        
+                      
+            <li>
+                <a href="http://facebook.com/olaasemmanuel">
+                    <i class="fa fa-facebook facebook-color"></i>
+                    <em>My facebook</em>
+                </a>
+            </li>        
+            
+        </ul>    
+        <div class="clear"></div>
+        <div class="content no-bottom"><div class="deco"></div></div>
+        <div class="landing-header no-bottom">
+            <a class="landing-header-logo" href="#">ShareCard</a>
+            <div class="landing-header-icons">
+                <a class="bg-green-dark show-share-bottom" href="#"><i class="fa fa-share"></i></a> 
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-overlay"></div>
+    <div class="landing-background"></div>
+</div>
+
+<div class="share-bottom share-light">
+    <h3>Share Call Card</h3>
+    <div class="share-socials-bottom">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/olaasz/hnginterns-emma/blob/master/app/hng-emma.apk">
+            <i class="fa fa-facebook facebook-color"></i>
+            Facebook
+        </a>
+        <a href="https://twitter.com/home?status=Check%20out%20Emmanuel's%20CallCard%20https://github.com/olaasz/hnginterns-emma/blob/master/app/hng-emma.apk">
+            <i class="fa fa-twitter twitter-color"></i>
+            Twitter
+        </a>
+        <a href="https://plus.google.com/share?url=https://github.com/olaasz/hnginterns-emma/blob/master/app/hng-emma.apk">
+            <i class="fa fa-google-plus google-color"></i>
+            Google
+        </a>
+
+        <a href="https://pinterest.com/pin/create/button/?url=https://github.com/olaasz/hnginterns-emma/blob/master/app/hng-emma.apk">
+            <i class="fa fa-pinterest-p pinterest-color"></i>
+            Pinterest
+        </a>
+        <a href="whatsapp://send?text=Hello%20check%20out%20Emmanuel's%20CallCard%20https://github.com/olaasz/hnginterns-emma/blob/master/app/hng-emma.apk">
+            <i class="fa fa-whatsapp whatsapp-color"></i>
+            WhatsApp
+        </a>
+        <a href="mailto:?&subject=Check Emmanuel's call card app out!&body=https://github.com/olaasz/hnginterns-emma/blob/master/app/hng-emma.apk">
+            <i class="fa fa-envelope-o mail-color"></i>
+            Email
+        </a>
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
